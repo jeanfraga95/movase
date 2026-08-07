@@ -20,6 +20,8 @@
     <!-- icones -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+        <link rel="stylesheet" href="slick/slick.css">
+        <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
 
 <body>
@@ -29,10 +31,10 @@
             <h1>
                 <a href="index.html"><img src="img/logo.png" alt="Logo do site"></a>
             </h1>
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" id="iconMenu">
                 menu
             </span>
-            <nav>
+            <nav id="itens">
                 <a href="index.html" tabindex="1">Home</a>
                 <a href="pacotes.html" tabindex="2">Pacotes</a>
                 <a href="acessorios.html" tabindex="3">Acessórios</a>
@@ -166,8 +168,9 @@
 
 
 
-
-
+<script src="slick/slick.min.js"></script>
+<script src="/js/interacoes.js"></script>
+<script src="/slick/jquery-3.7.0.min.js"></script>
 
 </body>
 

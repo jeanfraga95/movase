@@ -337,7 +337,7 @@ iframe{
 }
 
 /* ====== pagina responsiva ====== */
-
+/* 
 @media (min-width: 700px){
     #topo{
         position: fixed;
@@ -472,4 +472,4 @@ iframe{
     .conteudo{
         width: 1200px;
     }
-}
+} */
