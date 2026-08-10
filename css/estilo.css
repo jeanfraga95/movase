@@ -14,6 +14,9 @@ body{
 img{
     width: 100%;
 }
+.modal-container{
+    display: none;
+}
 #topo{
     background-color: rgba(24,56,29,0.9);
     border-bottom: solid 1px;

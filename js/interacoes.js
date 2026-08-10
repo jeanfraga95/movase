@@ -25,13 +25,34 @@
 // });
 
 
-$(document).ready(function(){
-    $('#destaque').slick(
-        {
-            dots:true,
-            autoplay:true,
-            autoplaySpeed:3000,
-            arrows:false
-        }
-    );
-})
+// $(document).ready(function(){
+//     $('#destaque').slick(
+//         {
+//             dots:true,
+//             autoplay:true,
+//             autoplaySpeed:3000,
+//             arrows:false
+//         }
+//     );
+// })
+
+
+let modal = document.querySelector(".modal-container");
+let btn_fotos = document.querySelector(".pac-fotos");
+let valor_modal = true;
+
+
+btn_fotos.addEventListener("click", function(){
+    if(valor_modal){
+        modal.style.display = "flex";
+        valor_modal = false;
+
+    }
+    else{
+        modal.style.display = "none";
+        valor_modal = true;
+
+    }
+   
+
+});
