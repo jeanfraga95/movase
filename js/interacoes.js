@@ -38,13 +38,13 @@
 
 
 let modal = document.querySelector(".modal-container");
-let btn_fotos = document.querySelector(".pac-fotos");
+let btn_fotos = document.querySelector("#pac-fotos2");
 let valor_modal = true;
 
-
 btn_fotos.addEventListener("click", function(){
+
     if(valor_modal){
-        modal.style.display = "flex";
+    modal.style.display = "flex";
         valor_modal = false;
 
     }
@@ -53,6 +53,7 @@ btn_fotos.addEventListener("click", function(){
         valor_modal = true;
 
     }
+    
    
 
 });

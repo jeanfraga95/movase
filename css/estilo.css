@@ -15,7 +15,21 @@ img{
     width: 100%;
 }
 .modal-container{
-    display: none;
+    display: flex;
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: -25rem;
+    margin-bottom: 1rem;
+    border-radius: 25%;
+    background-color: #ED6D19;
+    box-shadow: #7f7f80;
+    width: 800px;
+    height: 8rem;
+   
+    z-index: 99999;
 }
 #topo{
     background-color: rgba(24,56,29,0.9);
@@ -275,6 +289,9 @@ iframe{
     box-shadow: grey 1px 1px 5px;
     margin: 20px auto;
     max-width: 300px;
+}
+.pac-fotos{
+    cursor: pointer;
 }
 .pac-fotos,
 .pac-reserva{
